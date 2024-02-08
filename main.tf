@@ -1,5 +1,6 @@
 provider "azurerm" {
   features {}
+subscription_id = "POC_SUBSCRIPTION_ID"
    
 }
 data "azurerm_client_config" "current" {}
